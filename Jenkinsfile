@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Source') {
       steps {
-        git 'https://github.com/weibeld/sam-hello-world.git'
+        git 'https://github.com/AnjaneyareddyTetala/sam-hello-world.git'
       }
     }
 
