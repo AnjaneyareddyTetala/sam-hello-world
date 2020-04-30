@@ -51,7 +51,7 @@ pipeline {
       }
       steps {
         dir(path: 'sam-hello-world-1') {
-          sh 'sam deploy --template-file sam-template-mumbai.yaml --stack-name sambucketjenkins --region us-east-1 --capabilities CAPABILITY_IAM'
+          sh 'sam deploy --template-file sam-template-mumbai.yaml --stack-name sambucketjenkins --capabilities CAPABILITY_IAM'
         }
 
       }
