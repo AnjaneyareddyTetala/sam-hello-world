@@ -24,7 +24,7 @@ pipeline {
       steps {
         dir(path: 'sam-hello-world-1') {
           sh 'cp -avr /home/package.json . '
-          sh 'sam build'
+          sh 'sam anji'
         }
 
       }
